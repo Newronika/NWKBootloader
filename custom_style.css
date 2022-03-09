@@ -1,0 +1,211 @@
+QWidget{
+    background-color: white;
+    color: black;
+}
+
+QGroupBox{
+    background-color: white;
+    border: white;
+}
+QCheckBox{
+    color: black;
+    background-color: white;
+}
+QLineEdit{
+    color: black;
+    background-color: white;
+}
+QLabel{
+    background-color: white;
+    font-family: "Segoe UI";
+    text-align: center;
+}
+
+QPushButton:enabled{
+    background-color: dimgrey;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    text-align: center;
+    border: 1px rgb(85, 85, 85);
+    border-radius: 4px;
+    padding: 1px 18px 1px 3px;
+    min-height: 1.3em;
+    min-width: 50px;
+    color: white;
+}
+QPushButton:hover{
+    background-color: grey;
+    color: white;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    text-align: center;
+    border: 1px rgb(85, 85, 85);
+    border-radius: 4px;
+    padding: 1px 18px 1px 3px;
+    min-height: 1.3em;
+    min-width: 50px;
+}
+QPushButton:pressed{
+    background-color: dimgray;
+    padding: 1px 18px 1px 3px;;
+    border-radius: 4px;
+    border-bottom: 4px darkgrey;
+    min-height: 1.3em;
+    min-width: 25px
+
+        }
+
+QPushButton:disabled{
+    background-color: lightgray;
+    color: darkgrey;
+    font-family: "Segoe UI";
+    text-align: center;
+    border: 1px gray;
+    border-radius: 3px;
+    padding: 1px 18px 1px 3px;
+
+    min-height: 1.3em;
+}
+
+QLineEdit {
+    background-color: white;
+    color: black;
+    font-family: "Segoe UI";
+    min-height: 1.3em;
+    border: 1px solid white;
+    max-width: 240px;
+}
+QLabel:disabled{
+    color: gray;
+}
+QLineEdit:disabled{
+    background-color: -moz-default-background-color;
+    color: -moz-default-background-color;
+    font-family: "Segoe UI";
+    min-height: 1.3em;
+    border: 1px solid gray();
+}
+QRadioButton {
+    background-color:       rgb(43, 43, 43);
+    color:                  white;
+    font-family: "Segoe UI";
+}
+
+QRadioButton::indicator {
+    width:                  10px;
+    height:                 10px;
+    border-radius:          7px;
+
+}
+
+QRadioButton::indicator:checked {
+    background-color:       rgba(0,120,215,255);
+    border:                 2px solid white;
+}
+
+QRadioButton::indicator:unchecked {
+    background-color:       lightgray;
+    border:                 2px solid white;
+
+}
+QRadioButton::indicator:disabled{
+    background-color:       -moz-default-background-color;
+    border:                 2px solid -moz-default-background-color;
+}
+QRadioButton:disabled{
+    color:gray;
+}
+
+QCheckBox{
+    color: black;
+    background-color: white;
+    font-family: "Segoe UI";
+}
+
+QCheckBox::indicator{
+    width:                  10px;
+    height:                 10px;
+    border-radius:          7px;
+}
+QCheckbox::indicator:disabled{
+    background-color:       gray;
+    border:                 2px solid -moz-default-background-color;
+    }
+
+
+QCheckBox::indicator:checked {
+    background-color:       orangered;
+    border:                 2px solid white;
+}
+
+QCheckBox::indicator:unchecked{
+    background-color:       lightgray;
+    border:                 2px solid white;
+}
+
+
+QComboBox{
+    background-color: rgb(43, 43, 43);
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 1px 18px 1px 3px;
+    min-width: 5em;
+    max-width: 5em;
+    min-height: 1.3em;
+    color: white;
+    font-family: "Segoe UI";
+
+}
+QComboBox QAbstractItemView {
+    border: 2px solid rgb(43, 43, 43);
+    selection-background-color: orangered;
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+QDateEdit
+{
+    background-color: black;
+    border: 1px solid darkgrey;
+    spacing: 5px;
+    font-family: "Segoe UI";
+
+}
+
+QTimeEdit
+{
+    background-color: black;
+    border: 1px solid darkgrey;
+    spacing: 5px;
+    font-family: "Segoe UI";
+}
+QCalendarWidget  QAbstractItemView:enabled{
+	font-size:14px;
+    font-family: "Segoe UI";
+	color: black;
+	background-color: lightgray;
+	selection-background-color: rgb(64, 64, 64);
+	selection-color: dodgerblue;
+}
+QCalendarWidget QAbstractItemView:disabled { color: black; }
+
+QSlider {
+    background-color: rgb(43, 43, 43);
+
+}
+QSlider::handle:horizontal {
+    background: dodgerblue;
+    border: 5px solid dodgerblue;
+    width: 40px;
+    height: 20px;
+}
+QSlider::groove:horizontal {
+    border: 1px solid #393939;
+    height: 20px;
+    background: #393939;
+    margin: 0 12px;
+}
+QMessageBox {
+    background-color: white;
+}
+QMessageBox QPushButton{
+    background-color: white;}
